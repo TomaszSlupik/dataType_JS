@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 20px;
+}
+textarea, p {
+    margin: 5px 10px;
+    width: 280px;
+    height: 170px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 30px;
+}
+
+.typeText {
+    box-shadow: 5px 5px 10px black;
+}
+
+.typed {
+    font-weight: bold;
+    font-size: 80px;
+}
